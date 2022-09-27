@@ -2,23 +2,23 @@
 
 # Meta 0.8.15
 
-Meta data for social media sites.
+Metadaten für soziale Medien.
 
-<p align="center"><img src="meta-screenshot.png?raw=true" alt="Screenshot"></p>
+<p align="center"><img src="meta-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
-## How to add meta data for social media sites
+## Wie man Metadaten für soziale Medien hinzufügt
 
-This extension generates meta data for the [Open Graph protocol](https://ogp.me/).
+Diese Erweiterung erzeugt Metadaten für das [Open-Graph-Protocol](https://ogp.me/).
 
-You can set `Title`, `Description`, `Image` and `ImageAlt` in the [page settings](https://github.com/datenstrom/yellow-extensions/tree/master/source/core#settings-page) at the top of a page. You can configure additional meta data in the HTML header, for example in file `system/layouts/header.html`.
+Ganz oben auf einer Seite kannst du `Title`, `Description`, `Image` und `ImageAlt`  in den [Seiteneinstellungen](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-de.md#einstellungen-seite) festlegen. Zusätzliche Metadaten kannst du im HTML-Header festlegen, beispielsweise in der Datei `system/layouts/header.html`.
 
-## Example
+## Beispiele
 
-Content file with meta data:
+Inhaltsdatei mit Metadaten:
 
     ---
-    Title: Example page
-    Description: Example for your website
+    Title: Beispielseite
+    Description: Beispiel für deine Webseite
     Image: photo.jpg
     ---
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
@@ -27,11 +27,11 @@ Content file with meta data:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Content file with meta data from first image:
+Inhaltsdatei mit Metadaten vom ersten Bild
 
     ---
-    Title: Example page
-    Description: Example for your website
+    Title: Beispielseite
+    Description: Beispiel für deine Webseite
     ---
     [image photo.jpg]
 
@@ -41,7 +41,7 @@ Content file with meta data from first image:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Layout file with additional meta data for Twitter:
+Layoutdatei mit zusätzlichen Metadaten für Twitter:
 
     <!DOCTYPE html>
     <html lang="<?php echo $this->yellow->page->getHtml("language") ?>">
@@ -58,21 +58,21 @@ Layout file with additional meta data for Twitter:
     </head>
     ...
 
-## Settings
+## Einstellungen
 
-The following settings can be configured in file `system/extensions/yellow-system.ini`:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
-`MetaDefaultImage` = page image, `favicon` to use the default icon of the website  
+`MetaDefaultImage` = Bild der Seite, `favicon` um das Standard-Icon der Webseite zu verwenden  
 
-The following files can be customised:
+Die folgenden Dateien können angepasst werden:
 
-`system/layouts/header.html` = layout file for default HTML header  
-`system/layouts/footer.html` = layout file for default HTML footer  
+`system/layouts/header.html` = Layoutdatei für Standard-HTML-Header  
+`system/layouts/footer.html` = Layoutdatei für Standard-HTML-Footer  
 
 ## Installation
 
-[Download extension](https://github.com/datenstrom/yellow-extensions/raw/master/downloads/meta.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Erweiterung herunterladen](https://github.com/datenstrom/yellow-extensions/raw/master/downloads/meta.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
 
-## Developer
+## Entwickler
 
-Datenstrom, Steffen Schultz. [Get help](https://datenstrom.se/yellow/help/).
+Datenstrom, Steffen Schultz. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
