@@ -10,7 +10,7 @@ Metadata för webbplatser med sociala medier.
 
 Den här tillägget genererar metadata för [Open Graph protocol](https://ogp.me/).
 
-Du kan ställa in `Title`, `Description`, `Image` och `ImageAlt` i [sidinställningar](https://github.com/datenstrom/yellow-extensions/tree/master/source/core/README-sv.md#inställningar-page) högst upp på en sida. Du kan konfigurera ytterligare metadata i HTML-headern, till exempel i filen  `system/layouts/header.html`.
+Du kan ställa in `Title`, `Description`, `Image` och `ImageAlt` i [sidinställningar](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md#inställningar-page) högst upp på en sida. Du kan konfigurera ytterligare metadata i HTML-headern, till exempel i filen  `system/layouts/header.html`.
 
 ## Exempel
 
@@ -71,7 +71,7 @@ Följande filer kan anpassas:
 
 ## Installation
 
-[Ladda ner tillägg](https://github.com/datenstrom/yellow-extensions/raw/master/downloads/meta.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
+[Ladda ner tillägg](https://github.com/annaesvensson/yellow-meta/archive/main.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
 
 ## Utvecklare
 
