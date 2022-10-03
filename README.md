@@ -75,4 +75,4 @@ The following files can be customised:
 
 ## Developer
 
-Datenstrom, Steffen Schultz. [Get help](https://datenstrom.se/yellow/help/).
+Anna Svensson, Steffen Schultz. [Get help](https://datenstrom.se/yellow/help/).

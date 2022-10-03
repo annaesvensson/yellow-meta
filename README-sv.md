@@ -75,4 +75,4 @@ Följande filer kan anpassas:
 
 ## Utvecklare
 
-Datenstrom, Steffen Schultz. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
+Anna Svensson, Steffen Schultz. [Få hjälp](https://datenstrom.se/sv/yellow/help/).

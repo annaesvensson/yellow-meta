@@ -75,4 +75,4 @@ Die folgenden Dateien können angepasst werden:
 
 ## Entwickler
 
-Datenstrom, Steffen Schultz. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Anna Svensson, Steffen Schultz. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
