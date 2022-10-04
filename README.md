@@ -2,11 +2,11 @@
 
 # Meta 0.8.15
 
-Meta data for social media sites.
+Meta data for humans and machines.
 
 <p align="center"><img src="meta-screenshot.png?raw=true" alt="Screenshot"></p>
 
-## How to add meta data for social media sites
+## How to add meta data
 
 This extension generates meta data for the [Open Graph protocol](https://ogp.me/).
 
