@@ -41,6 +41,22 @@ Innehållsfil med metadata från första bilden:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
+Layoutfil med ytterligare metadata för sökmotorer:
+
+    <!DOCTYPE html>
+    <html lang="<?php echo $this->yellow->page->getHtml("language") ?>">
+    <head>
+    <title><?php echo $this->yellow->page->getHtml("titleHeader") ?></title>
+    <meta charset="utf-8" />
+    <meta name="description" content="<?php echo $this->yellow->page->getHtml("description") ?>" />
+    <meta name="author" content="<?php echo $this->yellow->page->getHtml("author") ?>" />
+    <meta name="generator" content="Datenstrom Yellow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <?php echo $this->yellow->page->getExtra("header") ?>
+    </head>
+    ...
+
 Layoutfil med ytterligare metadata för Twitter:
 
     <!DOCTYPE html>
