@@ -2,11 +2,11 @@
 
 # Meta 0.8.15
 
-Metadaten für soziale Medien.
+Metadaten für Menschen und Maschinen.
 
 <p align="center"><img src="meta-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
-## Wie man Metadaten für soziale Medien hinzufügt
+## Wie man Metadaten hinzufügt
 
 Diese Erweiterung erzeugt Metadaten für das [Open-Graph-Protocol](https://ogp.me/).
 
