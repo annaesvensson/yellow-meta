@@ -2,11 +2,11 @@
 
 # Meta 0.8.15
 
-Metadata för webbplatser med sociala medier.
+Metadata för människor och maskiner.
 
 <p align="center"><img src="meta-screenshot.png?raw=true" alt="Skärmdump"></p>
 
-## Hur man lägger till metadata för sociala medier
+## Hur man lägger till metadata
 
 Den här tillägget genererar metadata för [Open Graph protocol](https://ogp.me/).
 
