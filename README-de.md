@@ -52,7 +52,7 @@ Layoutdatei mit zusätzlichen Metadaten für Suchmaschinen:
     <meta name="author" content="<?php echo $this->yellow->page->getHtml("author") ?>" />
     <meta name="generator" content="Datenstrom Yellow" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="noindex, nofollow" />
+    <meta name="robots" content="index, follow" />
     <?php echo $this->yellow->page->getExtra("header") ?>
     </head>
     ...
