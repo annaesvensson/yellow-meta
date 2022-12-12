@@ -6,6 +6,10 @@ Metadaten für Menschen und Maschinen.
 
 <p align="center"><img src="meta-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
+## Wie man eine Erweiterung installiert
+
+[ZIP-Datei herunterladen](https://github.com/annaesvensson/yellow-meta/archive/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
+
 ## Wie man Metadaten hinzufügt
 
 Diese Erweiterung erzeugt Metadaten für das [Open-Graph-Protocol](https://ogp.me/).
@@ -84,10 +88,6 @@ Die folgenden Dateien können angepasst werden:
 
 `system/layouts/header.html` = Layoutdatei für Standard-HTML-Header  
 `system/layouts/footer.html` = Layoutdatei für Standard-HTML-Footer  
-
-## Installation
-
-[Erweiterung herunterladen](https://github.com/annaesvensson/yellow-meta/archive/main.zip) und die ZIP-Datei in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
 ## Entwickler
 

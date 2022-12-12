@@ -6,6 +6,10 @@ Metadata för människor och maskiner.
 
 <p align="center"><img src="meta-screenshot.png?raw=true" alt="Skärmdump"></p>
 
+## Hur man installerar ett tillägg
+
+[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-meta/archive/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+
 ## Hur man lägger till metadata
 
 Den här tillägget genererar metadata för [Open Graph protocol](https://ogp.me/).
@@ -84,10 +88,6 @@ Följande filer kan anpassas:
 
 `system/layouts/header.html` = layoutfil för standard HTML-header  
 `system/layouts/footer.html` = layoutfil för standard HTML-footer  
-
-## Installation
-
-[Ladda ner tillägg](https://github.com/annaesvensson/yellow-meta/archive/main.zip) och kopiera ZIP-fil till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
 ## Utvecklare
 
