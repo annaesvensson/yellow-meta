@@ -16,7 +16,7 @@ This extension generates meta data for the [Open Graph protocol](https://ogp.me/
 
 You can set `Title`, `Description`, `Image` and `ImageAlt` in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of a page. You can configure additional meta data in the HTML header, for example in file `system/layouts/header.html`.
 
-## Example
+## Examples
 
 Content file with meta data:
 
