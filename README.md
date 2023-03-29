@@ -72,8 +72,7 @@ Layout file with additional meta data for Twitter:
     <meta name="author" content="<?php echo $this->yellow->page->getHtml("author") ?>" />
     <meta name="generator" content="Datenstrom Yellow" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@dog_feelings" />
+    <meta name="twitter:site" content="@datenstrom" />
     <?php echo $this->yellow->page->getExtra("header") ?>
     </head>
     ...
