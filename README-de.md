@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Meta 0.8.16
+# Meta 0.8.17
 
 Metadaten für Menschen und Maschinen.
 
@@ -57,7 +57,7 @@ Layoutdatei mit zusätzlichen Metadaten für Suchmaschinen:
     <meta name="generator" content="Datenstrom Yellow" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="index, follow" />
-    <?php echo $this->yellow->page->getExtra("header") ?>
+    <?php echo $this->yellow->page->getExtraHtml("header") ?>
     </head>
     ...
 
@@ -73,7 +73,7 @@ Layoutdatei mit zusätzlichen Metadaten für Twitter:
     <meta name="generator" content="Datenstrom Yellow" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="twitter:site" content="@datenstrom" />
-    <?php echo $this->yellow->page->getExtra("header") ?>
+    <?php echo $this->yellow->page->getExtraHtml("header") ?>
     </head>
     ...
 
