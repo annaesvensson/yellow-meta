@@ -88,6 +88,10 @@ Die folgenden Dateien können angepasst werden:
 `system/layouts/header.html` = Layoutdatei für Standard-HTML-Header  
 `system/layouts/footer.html` = Layoutdatei für Standard-HTML-Footer  
 
+## Danksagung
+
+Diese Erweiterung wurde zuvor betreut von Steffen Schultz. Danke für die gute Arbeit.
+
 ## Entwickler
 
-Anna Svensson, Steffen Schultz. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Anna Svensson. [Hilfe finden](https://datenstrom.se/de/yellow/help/).

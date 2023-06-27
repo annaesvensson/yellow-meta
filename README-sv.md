@@ -88,6 +88,10 @@ Följande filer kan anpassas:
 `system/layouts/header.html` = layoutfil för standard HTML-header  
 `system/layouts/footer.html` = layoutfil för standard HTML-footer  
 
+## Tack
+
+Detta tillägg underhålls tidigare av Steffen Schultz. Tack för ett bra jobb.
+
 ## Utvecklare
 
-Anna Svensson, Steffen Schultz. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
+Anna Svensson. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
