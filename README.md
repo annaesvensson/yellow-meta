@@ -61,7 +61,7 @@ Layout file with additional meta data for search engines:
     </head>
     ...
 
-Layout file with additional meta data for Twitter:
+Layout file with additional meta data for Mastodon:
 
     <!DOCTYPE html>
     <html lang="<?php echo $this->yellow->page->getHtml("language") ?>">
@@ -72,7 +72,7 @@ Layout file with additional meta data for Twitter:
     <meta name="author" content="<?php echo $this->yellow->page->getHtml("author") ?>" />
     <meta name="generator" content="Datenstrom Yellow" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="twitter:site" content="@datenstrom" />
+    <link rel="me" href="https://mastodon.social/@datenstrom" />
     <?php echo $this->yellow->page->getExtraHtml("header") ?>
     </head>
     ...
