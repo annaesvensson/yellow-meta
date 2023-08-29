@@ -88,7 +88,7 @@ The following files can be customised:
 `system/layouts/header.html` = layout file for default HTML header  
 `system/layouts/footer.html` = layout file for default HTML footer  
 
-Acknowledgements
+## Acknowledgements
 
 This extension was previously maintained by Steffen Schultz. Thank you for the good work.
 
