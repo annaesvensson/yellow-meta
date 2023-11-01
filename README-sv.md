@@ -86,7 +86,6 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 Följande filer kan anpassas:
 
 `system/layouts/header.html` = layoutfil för standard HTML-header  
-`system/layouts/footer.html` = layoutfil för standard HTML-footer  
 
 ## Tack
 

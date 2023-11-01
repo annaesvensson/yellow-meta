@@ -86,7 +86,6 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 Die folgenden Dateien können angepasst werden:
 
 `system/layouts/header.html` = Layoutdatei für Standard-HTML-Header  
-`system/layouts/footer.html` = Layoutdatei für Standard-HTML-Footer  
 
 ## Danksagung
 
