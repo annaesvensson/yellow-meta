@@ -2,7 +2,7 @@
 // Meta extension, https://github.com/annaesvensson/yellow-meta
 
 class YellowMeta {
-    const VERSION = "0.8.17";
+    const VERSION = "0.9.1";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -52,7 +52,7 @@ class YellowMeta {
         }
         if (!preg_match("/^\w+:/", $name)) {
             $location = $name!="favicon" ? $this->yellow->system->get("coreImageLocation").$name :
-                $this->yellow->system->get("coreThemeLocation").$this->yellow->lookup->normaliseName($page->get("theme")).".png";
+                $this->yellow->system->get("coreExtensionLocation").$this->yellow->lookup->normaliseName($page->get("theme")).".png";
             $url = $this->yellow->lookup->normaliseUrl(
                 $this->yellow->system->get("coreServerScheme"),
                 $this->yellow->system->get("coreServerAddress"),
