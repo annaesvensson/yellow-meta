@@ -2,7 +2,7 @@
 // Meta extension, https://github.com/annaesvensson/yellow-meta
 
 class YellowMeta {
-    const VERSION = "0.9.2";
+    const VERSION = "0.9.3";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -17,7 +17,7 @@ class YellowMeta {
         if ($name=="header" && !$page->isError()) {
             list($imageUrl, $imageAlt) = $this->getImageInformation($page);
             $locale = $this->yellow->language->getText("languageLocale", $page->get("language"));
-            $output .= "<meta property=\"og:url\" content=\"".htmlspecialchars($page->getUrl().$this->yellow->toolbox->getLocationArguments())."\" />\n";
+            $output .= "<meta property=\"og:url\" content=\"".htmlspecialchars($page->getUrl(true).$this->yellow->toolbox->getLocationArguments())."\" />\n";
             $output .= "<meta property=\"og:locale\" content=\"".htmlspecialchars($locale)."\" />\n";
             $output .= "<meta property=\"og:type\" content=\"website\" />\n";
             $output .= "<meta property=\"og:title\" content=\"".$page->getHtml("title")."\" />\n";
