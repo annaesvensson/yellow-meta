@@ -4,31 +4,31 @@
 class YellowMeta {
     const VERSION = "0.9.3";
     public $yellow;         // access to API
-    
+
     // Handle initialisation
     public function onLoad($yellow) {
         $this->yellow = $yellow;
         $this->yellow->system->setDefault("metaDefaultImage", "favicon");
     }
-    
+
     // Handle page extra data
     public function onParsePageExtra($page, $name) {
         $output = null;
         if ($name=="header" && !$page->isError()) {
             list($imageUrl, $imageAlt) = $this->getImageInformation($page);
             $locale = $this->yellow->language->getText("languageLocale", $page->get("language"));
-            $output .= "<meta property=\"og:url\" content=\"".htmlspecialchars($page->getUrl(true).$this->yellow->toolbox->getLocationArguments())."\" />\n";
-            $output .= "<meta property=\"og:locale\" content=\"".htmlspecialchars($locale)."\" />\n";
-            $output .= "<meta property=\"og:type\" content=\"website\" />\n";
-            $output .= "<meta property=\"og:title\" content=\"".$page->getHtml("title")."\" />\n";
-            $output .= "<meta property=\"og:site_name\" content=\"".$page->getHtml("sitename")."\" />\n";
-            $output .= "<meta property=\"og:description\" content=\"".$page->getHtml("description")."\" />\n";
-            $output .= "<meta property=\"og:image\" content=\"".htmlspecialchars($imageUrl)."\" />\n";
-            $output .= "<meta property=\"og:image:alt\" content=\"".htmlspecialchars($imageAlt)."\" />\n";
+            $output .= "<meta property=\"og:url\" content=\"".htmlspecialchars($page->getUrl(true).$this->yellow->toolbox->getLocationArguments())."\">\n";
+            $output .= "<meta property=\"og:locale\" content=\"".htmlspecialchars($locale)."\">\n";
+            $output .= "<meta property=\"og:type\" content=\"website\">\n";
+            $output .= "<meta property=\"og:title\" content=\"".$page->getHtml("title")."\">\n";
+            $output .= "<meta property=\"og:site_name\" content=\"".$page->getHtml("sitename")."\">\n";
+            $output .= "<meta property=\"og:description\" content=\"".$page->getHtml("description")."\">\n";
+            $output .= "<meta property=\"og:image\" content=\"".htmlspecialchars($imageUrl)."\">\n";
+            $output .= "<meta property=\"og:image:alt\" content=\"".htmlspecialchars($imageAlt)."\">\n";
         }
         return $output;
     }
-    
+
     // Handle page output data
     public function onParsePageOutput($page, $text) {
         $output = null;
@@ -37,7 +37,7 @@ class YellowMeta {
         }
         return $output;
     }
-    
+
     // Return image information for page
     public function getImageInformation($page) {
         if ($page->isExisting("image")) {
