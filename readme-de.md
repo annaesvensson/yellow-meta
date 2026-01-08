@@ -1,28 +1,28 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
+<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
 
 # Meta 0.9.3
 
-Metadata för människor och maskiner.
+Metadaten für Menschen und Maschinen.
 
-<p align="center"><img src="SCREENSHOT.png" alt="Skärmdump"></p>
+<p align="center"><img src="screenshot.png" alt="Bildschirmfoto"></p>
 
-## Hur man installerar ett tillägg
+## Wie man eine Erweiterung installiert
 
-[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-meta/archive/refs/heads/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+[ZIP-Datei herunterladen](https://github.com/annaesvensson/yellow-meta/archive/refs/heads/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/readme-de.md).
 
-## Hur man lägger till metadata
+## Wie man Metadaten hinzufügt
 
-Den här tillägget genererar metadata för [Open Graph protocol](https://ogp.me/).
+Diese Erweiterung erzeugt Metadaten für das [Open-Graph-Protocol](https://ogp.me/).
 
-Du kan ställa in `Title`, `Description`, `Image` och `ImageAlt` i [sidinställningar](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md#inställningar-page) högst upp på en sida. Du kan konfigurera ytterligare metadata i HTML-headern, till exempel i filen  `system/layouts/header.html`.
+Ganz oben auf einer Seite kannst du `Title`, `Description`, `Image` und `ImageAlt`  in den [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/readme-de.md#einstellungen-seite) festlegen. Zusätzliche Metadaten kannst du im HTML-Header festlegen, beispielsweise in der Datei `system/layouts/header.html`.
 
-## Exempel
+## Beispiele
 
-Innehållsfil med metadata: 
+Inhaltsdatei mit Metadaten:
 
     ---
-    Title: Exempelsida
-    Description: Exempel för din webbplats
+    Title: Beispielseite
+    Description: Beispiel für deine Webseite
     Image: photo.jpg
     ---
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
@@ -31,11 +31,11 @@ Innehållsfil med metadata:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Innehållsfil med metadata från första bilden:
+Inhaltsdatei mit Metadaten vom ersten Bild
 
     ---
-    Title: Exempelsida
-    Description: Exempel för din webbplats
+    Title: Beispielseite
+    Description: Beispiel für deine Webseite
     ---
     [image photo.jpg]
 
@@ -45,7 +45,7 @@ Innehållsfil med metadata från första bilden:
     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
     in culpa qui officia deserunt mollit anim id est laborum.
 
-Layoutfil med ytterligare metadata för sökmotorer:
+Layoutdatei mit zusätzlichen Metadaten für Suchmaschinen:
 
     <!DOCTYPE html>
     <html lang="<?php echo $this->yellow->page->getHtml("language") ?>">
@@ -61,7 +61,7 @@ Layoutfil med ytterligare metadata för sökmotorer:
     </head>
     ...
 
-Layoutfil med ytterligare metadata för Mastodon:
+Layoutdatei mit zusätzlichen Metadaten für Mastodon:
 
     <!DOCTYPE html>
     <html lang="<?php echo $this->yellow->page->getHtml("language") ?>">
@@ -77,20 +77,20 @@ Layoutfil med ytterligare metadata för Mastodon:
     </head>
     ...
 
-## Inställningar
+## Einstellungen
 
-Följande inställningar kan konfigureras i filen `system/extensions/yellow-system.ini`:
+Die folgenden Einstellungen können in der Datei `system/extensions/yellow-system.ini` vorgenommen werden:
 
-`MetaDefaultImage` = sidans bild, `favicon` för att använda webbplatsens standardikon  
+`MetaDefaultImage` = Bild der Seite, `favicon` um das Standard-Icon der Webseite zu verwenden  
 
-Följande filer kan anpassas:
+Die folgenden Dateien können angepasst werden:
 
-`system/layouts/header.html` = layoutfil för standard HTML-header  
+`system/layouts/header.html` = Layoutdatei für Standard-HTML-Header  
 
-## Tack
+## Danksagung
 
-Detta tillägg underhålls tidigare av Steffen Schultz. Tack för ett bra jobb.
+Diese Erweiterung wurde zuvor betreut von Steffen Schultz. Danke für die gute Arbeit.
 
-## Utvecklare
+## Entwickler
 
-Anna Svensson. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
+Anna Svensson. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
