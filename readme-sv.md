@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
-
 # Meta 0.9.3
 
-Metadata för människor och maskiner.
+Metadata för människor och maskiner. Utvecklad av Anna Svensson.
 
 <p align="center"><img src="screenshot.png" alt="Skärmdump"></p>
 
@@ -91,6 +89,4 @@ Följande filer kan anpassas:
 
 Detta tillägg underhålls tidigare av Steffen Schultz. Tack för ett bra jobb.
 
-## Utvecklare
-
-Anna Svensson. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
+Har du några frågor? [Få hjälp](https://datenstrom.se/sv/yellow/help/).
