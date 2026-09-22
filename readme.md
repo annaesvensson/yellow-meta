@@ -87,6 +87,6 @@ The following files can be customised:
 
 ## Acknowledgements
 
-This extension was previously maintained by Steffen Schultz. Thank you for the good work.
+This extension includes contributions by Steffen Schultz. Thank you for the good work.
 
 Do you have questions? [Get help](https://datenstrom.se/yellow/help/).

@@ -87,6 +87,6 @@ Die folgenden Dateien können angepasst werden:
 
 ## Danksagung
 
-Diese Erweiterung wurde zuvor betreut von Steffen Schultz. Danke für die gute Arbeit.
+Diese Erweiterung enthält Beiträge von Steffen Schultz. Danke für die gute Arbeit.
 
 Hast du Fragen? [Hilfe finden](https://datenstrom.se/de/yellow/help/).

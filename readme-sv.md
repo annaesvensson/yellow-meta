@@ -87,6 +87,6 @@ Följande filer kan anpassas:
 
 ## Tack
 
-Detta tillägg underhålls tidigare av Steffen Schultz. Tack för ett bra jobb.
+Detta tillägg innehåller bidrag från Steffen Schultz. Tack för ett bra jobb.
 
 Har du några frågor? [Få hjälp](https://datenstrom.se/sv/yellow/help/).
