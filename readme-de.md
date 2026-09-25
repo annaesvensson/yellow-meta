@@ -1,4 +1,4 @@
-# Meta 0.9.3
+# Meta 1.0.1
 
 Metadaten für Menschen und Maschinen. Entwickelt von Anna Svensson.
 
